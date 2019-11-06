@@ -1,4 +1,4 @@
-img {
+#img {
     border-radius: 50%;
     width: 110px;
     height: 110px;
@@ -8,6 +8,7 @@ img {
 body {
     background-color: ghostwhite;
     font-family: 'Montserrat', sans-serif;
+    margin-top: 100px;
 }
 
 .sidenav {
@@ -37,15 +38,41 @@ body {
 }
 
 .main {
-    margin-left: 300px;
+    margin-left: 220px;
+}
+
+.card {
+    margin: 0 10px 0 -20px;
+}
+
+.card-group {
+    margin: 0 20px 0;
+}
+
+.card-img-top {
+    height: 315px;
+    width: 420px;
+}
+
+.card-text, .card-title {
+    text-align: center;
 }
 
 #username {
+    color: black;
     font-weight: bolder;
     text-align: center;
     font-style: italic;
     text-shadow: 3px 6px 1px gainsboro;
     margin-top: 20px;
+}
+
+#gitty {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    display: -webkit-inline-box;
+    left: 70px;
 }
 
 @media screen and (max-height: 450px) {
